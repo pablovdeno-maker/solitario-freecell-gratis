@@ -24,4 +24,6 @@ También puedes consultar la [guía completa para aprender a jugar](https://free
 
 Consulta las [novedades de la primera versión pública](https://github.com/pablovdeno-maker/solitario-freecell-gratis/releases/tag/v1.0.0).
 
+¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
+
 Este repositorio contiene únicamente la página pública de promoción. El código fuente del juego no se publica aquí.
