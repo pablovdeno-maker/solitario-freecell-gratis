@@ -1,5 +1,7 @@
 # Solitario FreeCell gratis online
 
+![Solitario FreeCell gratis para móvil](freecell-cover.jpg)
+
 Juega gratis a **Solitario FreeCell (Carta Blanca)** desde el móvil, la tableta o el ordenador. No requiere registro ni instalación.
 
 ## Jugar ahora
