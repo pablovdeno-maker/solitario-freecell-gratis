@@ -36,6 +36,8 @@ Joueurs francophones : [jouer à FreeCell gratuit en français](https://freecell
 
 Deutschsprachige Spieler können [FreeCell kostenlos auf Deutsch spielen](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/de/freecell-kostenlos?utm_source=github&utm_medium=referral&utm_campaign=german_landing) und am [deutschen Handy-Test](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/7) teilnehmen.
 
+Giocatori italiani: [gioca a FreeCell gratis in italiano](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/it/freecell-gratis?utm_source=github&utm_medium=referral&utm_campaign=italian_landing) e partecipa al [test su cellulare](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/8).
+
 ¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
 
 También puedes [aceptar el reto diario del 29 de julio](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/2) y comparar movimientos y tiempo.
