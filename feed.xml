@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Novedades de Solitario FreeCell gratis</title>
+    <link>https://pablovdeno-maker.github.io/solitario-freecell-gratis/</link>
+    <description>Retos diarios, guías y novedades del juego FreeCell online para móvil y ordenador.</description>
+    <language>es-ES</language>
+    <atom:link href="https://pablovdeno-maker.github.io/solitario-freecell-gratis/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Wed, 29 Jul 2026 20:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Reto diario de FreeCell: juega la partida de hoy</title>
+      <link>https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?daily=1&amp;play=1&amp;utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=daily_challenge</link>
+      <guid isPermaLink="false">freecell-daily-2026-07-29</guid>
+      <pubDate>Wed, 29 Jul 2026 19:45:00 GMT</pubDate>
+      <description>La misma distribución para todos. Juega gratis, compara movimientos y vuelve mañana para un reto nuevo.</description>
+    </item>
+    <item>
+      <title>FreeCell 1.1: controles móviles, pistas y reto diario</title>
+      <link>https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?play=1&amp;utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=v1_1_release</link>
+      <guid isPermaLink="false">freecell-release-1.1.0</guid>
+      <pubDate>Wed, 29 Jul 2026 19:20:00 GMT</pubDate>
+      <description>Nueva versión del Solitario FreeCell gratis con controles táctiles, pistas explicadas y partidas ilimitadas.</description>
+    </item>
+    <item>
+      <title>Cómo jugar a FreeCell: reglas y estrategia</title>
+      <link>https://pablovdeno-maker.github.io/solitario-freecell-gratis/como-jugar-freecell.html</link>
+      <guid isPermaLink="true">https://pablovdeno-maker.github.io/solitario-freecell-gratis/como-jugar-freecell.html</guid>
+      <pubDate>Wed, 29 Jul 2026 18:30:00 GMT</pubDate>
+      <description>Guía sencilla sobre celdas libres, columnas, bases y consejos para resolver más partidas.</description>
+    </item>
+  </channel>
+</rss>
