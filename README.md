@@ -34,6 +34,8 @@ Jogadores do Brasil e de Portugal podem acessar [Paciência FreeCell grátis](ht
 
 Joueurs francophones : [jouer à FreeCell gratuit en français](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/fr/freecell-gratuit?utm_source=github&utm_medium=referral&utm_campaign=french_landing) et participer au [test mobile en français](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/6).
 
+Deutschsprachige Spieler können [FreeCell kostenlos auf Deutsch spielen](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/de/freecell-kostenlos?utm_source=github&utm_medium=referral&utm_campaign=german_landing) und am [deutschen Handy-Test](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/7) teilnehmen.
+
 ¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
 
 También puedes [aceptar el reto diario del 29 de julio](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/2) y comparar movimientos y tiempo.
