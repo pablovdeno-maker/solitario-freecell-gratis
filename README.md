@@ -30,6 +30,8 @@ Consulta las [novedades de la versión 1.2 para compartir e instalar en móvil](
 
 Para búsquedas y jugadores internacionales también está disponible la página [Play FreeCell Online Free](https://pablovdeno-maker.github.io/solitario-freecell-gratis/play-freecell-online.html).
 
+Jogadores do Brasil e de Portugal podem acessar [Paciência FreeCell grátis](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/pt/freecell-gratis?utm_source=github&utm_medium=referral&utm_campaign=portuguese_landing) e participar do [teste em português](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/5).
+
 ¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
 
 También puedes [aceptar el reto diario del 29 de julio](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/2) y comparar movimientos y tiempo.
