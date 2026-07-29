@@ -75,6 +75,16 @@ jobs:
               `**[Jugar el reto diario de FreeCell](${playUrl})**`,
               "",
               "No es necesario pulsar anuncios para participar. La publicidad solo debe abrirse cuando resulte realmente interesante.",
+              "",
+              "---",
+              "",
+              "## Daily FreeCell challenge",
+              "",
+              "Every player gets exactly the same deal today. Play for free, compare moves, share your result and return tomorrow for a new challenge.",
+              "",
+              `**[Play today's FreeCell challenge](${playUrl}&lang=en)**`,
+              "",
+              "You do not need to click ads to participate. Only open an advertisement if it genuinely interests you.",
             ].join("\n");
 
             const { data: created } = await github.rest.issues.create({
