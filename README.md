@@ -8,6 +8,8 @@ Juega gratis a **Solitario FreeCell (Carta Blanca)** desde el móvil, la tableta
 
 ➡️ **[Abrir Solitario FreeCell gratis](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?play=1&utm_source=github&utm_medium=referral&utm_campaign=public_game_page)**
 
+🎯 **[Participa en el reto comunitario para llegar a 100 jugadores reales](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/4)**
+
 El juego incluye:
 
 - partidas ilimitadas;
