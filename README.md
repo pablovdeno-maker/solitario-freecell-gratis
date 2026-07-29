@@ -46,6 +46,6 @@ Svenska spelare: [spela FreeCell gratis på svenska](https://freecell-solitaire-
 
 ¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
 
-También puedes [aceptar el reto diario del 29 de julio](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/2) y comparar movimientos y tiempo.
+También puedes [aceptar el reto diario de FreeCell](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/12) y comparar movimientos y tiempo.
 
 Este repositorio contiene únicamente la página pública de promoción. El código fuente del juego no se publica aquí.
