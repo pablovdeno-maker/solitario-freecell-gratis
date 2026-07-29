@@ -1,0 +1,87 @@
+name: Publicar reto diario de FreeCell
+
+on:
+  schedule:
+    - cron: "17 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: daily-freecell-challenge
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Crear el reto sin duplicados
+        uses: actions/github-script@v9
+        with:
+          script: |
+            const now = new Date();
+            const parts = new Intl.DateTimeFormat("en-CA", {
+              timeZone: "Europe/Madrid",
+              year: "numeric",
+              month: "2-digit",
+              day: "2-digit",
+            }).formatToParts(now);
+            const value = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+            const day = `${value.year}-${value.month}-${value.day}`;
+            const displayDate = new Intl.DateTimeFormat("es-ES", {
+              timeZone: "Europe/Madrid",
+              dateStyle: "long",
+            }).format(now);
+            const title = `Reto diario de FreeCell — ${displayDate}`;
+
+            const { data: openIssues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+
+            if (openIssues.some((issue) => issue.title === title)) {
+              core.info(`El reto ${day} ya existe; no se crea un duplicado.`);
+              return;
+            }
+
+            for (const issue of openIssues) {
+              if (issue.title.startsWith("Reto diario de FreeCell —")) {
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: "closed",
+                  state_reason: "completed",
+                });
+              }
+            }
+
+            const campaign = `daily_challenge_${day.replaceAll("-", "_")}`;
+            const playUrl = `https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?daily=1&play=1&utm_source=github_issue&utm_medium=referral&utm_campaign=${campaign}`;
+            const body = [
+              `## Reto del ${displayDate}`,
+              "",
+              "Todos los jugadores reciben hoy exactamente la misma distribución de cartas.",
+              "",
+              "- juega gratis y sin registro;",
+              "- intenta usar el menor número de movimientos;",
+              "- comparte el resultado al terminar;",
+              "- vuelve mañana para una partida nueva.",
+              "",
+              `**[Jugar el reto diario de FreeCell](${playUrl})**`,
+              "",
+              "No es necesario pulsar anuncios para participar. La publicidad solo debe abrirse cuando resulte realmente interesante.",
+            ].join("\n");
+
+            const { data: created } = await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title,
+              body,
+              labels: ["help wanted"],
+            });
+            core.info(`Reto publicado: ${created.html_url}`);
