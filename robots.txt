@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pablovdeno-maker.github.io/solitario-freecell-gratis/sitemap.xml
