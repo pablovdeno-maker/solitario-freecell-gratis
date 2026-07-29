@@ -6,7 +6,14 @@
     <description>Retos diarios, guías y novedades del juego FreeCell online para móvil y ordenador.</description>
     <language>es-ES</language>
     <atom:link href="https://pablovdeno-maker.github.io/solitario-freecell-gratis/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 29 Jul 2026 20:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 29 Jul 2026 20:30:00 GMT</lastBuildDate>
+    <item>
+      <title>Reto comunitario: 100 jugadores reales de FreeCell</title>
+      <link>https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?play=1&amp;utm_source=rss&amp;utm_medium=community&amp;utm_campaign=road_to_100_players</link>
+      <guid isPermaLink="false">freecell-road-to-100-players</guid>
+      <pubDate>Wed, 29 Jul 2026 20:30:00 GMT</pubDate>
+      <description>Buscamos personas reales que prueben las cartas, las pistas y los controles móviles. Sin premios ni clics publicitarios incentivados.</description>
+    </item>
     <item>
       <title>Reto diario de FreeCell: juega la partida de hoy</title>
       <link>https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?daily=1&amp;play=1&amp;utm_source=rss&amp;utm_medium=referral&amp;utm_campaign=daily_challenge</link>
