@@ -1,5 +1,7 @@
 # Solitario FreeCell gratis online
 
+[![Visitantes únicos hacia el objetivo de 100](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Ffreecell-solitaire-movil.pablovdeno.chatgpt.site%2Fapi%2Fvisits&query=%24.total&label=visitantes%20%C3%BAnicos&suffix=%2F100&color=0a6b55&style=for-the-badge)](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/?play=1&utm_source=github_badge&utm_medium=community&utm_campaign=road_to_100_players)
+
 ![Solitario FreeCell gratis para móvil](freecell-cover.jpg)
 
 Juega gratis a **Solitario FreeCell (Carta Blanca)** desde el móvil, la tableta o el ordenador. No requiere registro ni instalación.
