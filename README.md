@@ -22,7 +22,9 @@ Ordena las cartas alternando colores y en orden descendente. Usa las cuatro celd
 
 También puedes consultar la [guía completa para aprender a jugar](https://freecell-solitaire-movil.pablovdeno.chatgpt.site/como-jugar-freecell?utm_source=github&utm_medium=referral&utm_campaign=public_game_page).
 
-Consulta las [novedades de la primera versión pública](https://github.com/pablovdeno-maker/solitario-freecell-gratis/releases/tag/v1.0.0).
+Consulta las [novedades de la versión móvil con reto diario](https://github.com/pablovdeno-maker/solitario-freecell-gratis/releases/tag/v1.1.0).
+
+Para búsquedas y jugadores internacionales también está disponible la página [Play FreeCell Online Free](https://pablovdeno-maker.github.io/solitario-freecell-gratis/play-freecell-online.html).
 
 ¿Lo has probado en móvil? Puedes [jugar y dejar tus comentarios](https://github.com/pablovdeno-maker/solitario-freecell-gratis/issues/1) para ayudar a mejorar la lectura de las cartas y los controles táctiles.
 
